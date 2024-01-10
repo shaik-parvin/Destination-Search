@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.heading {
+  margin-left: 40px;
+  font-size: 50px;
+}
+.input-container {
+  background-color: #f1f5f9;
+  display: flex;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 35px;
+}
+input {
+  margin-left: 40px;
+  border: none;
+  outline: none;
+  background-color: #f1f5f9;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
+
+.unordered {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .unordered {
+    flex-direction: column;
+  }
+}
